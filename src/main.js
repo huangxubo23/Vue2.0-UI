@@ -1,13 +1,9 @@
 import Vue from 'vue';
-import { Button, Select } from 'element-ui';
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-default/index.css';
 import App from './App.vue';
 
-Vue.component(Button.name, Button);
-Vue.component(Select.name, Select);
-/* 或写为
- * Vue.use(Button)
- * Vue.use(Select)
- */
+Vue.use(ElementUI);
 
 new Vue({
   el: '#app',
