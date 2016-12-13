@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "element-ui": "^1.0.4",
-    "vue": "^2.1.4"
+    "vue": "^2.1.4",
+    "vue-area": "^0.2.5",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
