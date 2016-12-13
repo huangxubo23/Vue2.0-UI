@@ -1,7 +1,7 @@
 <template>
     <div>
         <header-component></header-component>
-        <div class="zinn-home-left">
+       <div class="zinn-home-left">
             <lists-component></lists-component>
         </div>
         <div class="zinn-home-content">
@@ -30,15 +30,15 @@
     }
 </script>
 
-<style scoped>
+<style>
+    .zinn-home-content {
+        margin-left: 250px;
+        min-height: 500px;
+    };
     .zinn-home-left {
         float: left;
         width: 250px;
-        min-height: 500px;
-        background: #fff;
-    }
-    .zinn-home-content {
-        margin-left: 250px;
+        background-color: #fff;
         min-height: 500px;
     }
 </style>

@@ -1,6 +1,5 @@
 <template>
     <div class="zinn-header">
-        <el-button>{{data}}</el-button>
     </div>
 </template>
 
