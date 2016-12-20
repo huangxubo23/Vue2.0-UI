@@ -1,12 +1,13 @@
 <template>
-    <div>
+    <div class="zinn-container">
         <el-button>{{data}}</el-button>
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'listsComponent',
+        name: 'container',
         data() {
             return {
                 data: 'I am a button'
@@ -17,8 +18,8 @@
 
 <style scoped>
     .zinn-container {
-        /*width: 250px;*/
+        margin-left: 250px;
         min-height: 500px;
-        border-right: 1px solid #dbdbdb;
+        border-right: 1px solid #fff;
     }
 </style>
